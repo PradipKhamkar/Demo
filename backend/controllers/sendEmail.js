@@ -6,13 +6,13 @@ const sendEmailController = async (req, res) => {
       host: "smtp.logix.in",
       port: 587,
       auth: {
-        user: "react-test@enginetech.co.in",
-        pass: "Perform#2023",
+        user: "*********",
+        pass: "***********",
       },
     });
     await transporter.sendMail({
-      from: "react-test@enginetech.co.in",
-      to: "khamkarpradip20@gmail.com",
+      from: "***********",
+      to: "************",
       subject: "Attachements",
       html: `<h1>Welcome Pradip</h1>`,
       attachments: {
